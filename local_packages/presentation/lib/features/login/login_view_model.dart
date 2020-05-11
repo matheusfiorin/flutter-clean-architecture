@@ -46,7 +46,7 @@ abstract class _LoginViewModel with Store {
       _onLoginResult,
       onError: (err) {
         setStateAsNotLoggedIn(
-          errorMessage: "Ocorreu um erro ao tenter entrar.",
+          errorMessage: "Ocorreu um erro ao tentar entrar.",
         );
       },
     );
