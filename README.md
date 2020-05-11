@@ -1,3 +1,3 @@
-# fdv
+# FlutterCleanArchitecture
 
-Força de Vendas
+Base project for studying the clean architecture in Flutter
