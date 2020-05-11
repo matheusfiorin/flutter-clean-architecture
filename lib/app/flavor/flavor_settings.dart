@@ -23,8 +23,10 @@ final _company2Settings = Settings(
 const _developmentApiSettings =
     ApiSettings(baseUrl: "http://accfdv.accesys.com.br/");
 
-FlavorStyle _buildCompany1Style() =>
-    FlavorStyle(appBarColor: NamedColors.damagedTan);
+FlavorStyle _buildCompany1Style() => FlavorStyle(
+      appBarColor: NamedColors.damagedTan,
+      positiveButtonColor: NamedColors.damagedTan,
+    );
 
 FlavorStyle _buildCompany2Style() =>
     FlavorStyle(appBarColor: NamedColors.postWorldWalnut);
