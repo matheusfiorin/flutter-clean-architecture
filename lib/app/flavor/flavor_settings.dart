@@ -1,4 +1,4 @@
-import 'package:fdv/app/flavor/flavor.dart';
+import 'package:flutter_clean_architecture/app/flavor/flavor.dart';
 import 'package:models/settings/api_settings.dart';
 import 'package:presentation/design/named_colors.dart';
 import 'package:presentation/design/style.dart';
