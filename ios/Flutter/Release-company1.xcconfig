@@ -1,0 +1,4 @@
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.release-company1.xcconfig"
+#include "Pods/Target Support Files/Pods-Runner/Pods-Runner.profile-company1.xcconfig"
+#include "Generated.xcconfig"
+FLUTTER_TARGET=lib/main_company1.dart

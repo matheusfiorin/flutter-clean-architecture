@@ -1,0 +1,11 @@
+name: common
+description: Interfaces for classes and functions used by all layers
+version: 0.0.1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dev_dependencies:
+  test: 1.9.4
+
+  mockito: 4.1.1

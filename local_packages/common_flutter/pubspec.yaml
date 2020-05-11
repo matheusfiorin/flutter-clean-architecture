@@ -1,0 +1,18 @@
+name: common_flutter
+description: Interfaces for classes and functions used by the UI layer only
+version: 0.0.1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test: 1.9.4
+
+  mockito: 4.1.1

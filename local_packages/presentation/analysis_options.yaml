@@ -1,0 +1,11 @@
+include: ../../analysis_options.yaml
+
+linter:
+  rules:
+    # USAGE
+    - prefer_relative_imports # prefer
+
+analyzer:
+  exclude:
+    - lib/localization/l10n/**
+    - lib/**/*.g.dart

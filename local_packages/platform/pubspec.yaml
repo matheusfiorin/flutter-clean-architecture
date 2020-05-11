@@ -1,0 +1,36 @@
+name: platform
+description: Native libraries wrapper
+version: 0.0.1
+
+environment:
+  sdk: ">=2.6.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  models:
+    path: ../domain/models
+
+  data:
+    path: ../domain/data
+
+  common:
+    path: ../common
+
+  common_flutter:
+    path: ../common_flutter
+
+  flutter_secure_storage: ^3.3.1+1
+
+  package_info: ^0.4.0+14
+
+  connectivity: ^0.4.8+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  test: 1.9.4
+
+  mockito: 4.1.1
